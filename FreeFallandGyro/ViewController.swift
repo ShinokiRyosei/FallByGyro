@@ -55,10 +55,10 @@ class ViewController: UIViewController {
         dynamicAnimator.addBehavior(gravityBehavior)
         dynamicAnimator.addBehavior(collisionBehavior)
         
-        self.motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler: {(deviceMotion: CMDeviceMotion!, error: NSError!) in
+        self.motionManager.startDeviceMotionUpdatesToQueue(NSOperationQueue.mainQueue(), withHandler:{(deviceMotion: CMDeviceMotion?, error: NSError?) in
             //        ジャイロスコープの角度を取得
-            let x = CGFloat(deviceMotion.attitude.roll)
-            let y = CGFloat(deviceMotion.attitude.pitch)
+            let x = CGFloat(deviceMotion!.attitude.roll)
+            let y = CGFloat(deviceMotion!.attitude.pitch)
             
             NSLog("取得したx軸の角度は...%f", x)
             NSLog("取得したy軸の角度は...%f", y)

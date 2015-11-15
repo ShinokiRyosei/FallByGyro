@@ -156,6 +156,7 @@
 		BE1AFA4E1B31662C003C3EE1 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				LastSwiftUpdateCheck = 0710;
 				LastUpgradeCheck = 0630;
 				ORGANIZATIONNAME = shinokiryosei;
 				TargetAttributes = {
@@ -409,6 +410,7 @@
 				BE1AFA771B31662D003C3EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		BE1AFA781B31662D003C3EE1 /* Build configuration list for PBXNativeTarget "FreeFallandGyroTests" */ = {
 			isa = XCConfigurationList;
@@ -417,6 +419,7 @@
 				BE1AFA7A1B31662D003C3EE1 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
